@@ -143,7 +143,7 @@ public class PlayBandTest : MonoBehaviour
 		StartCoroutine (hu());
 	}
 	void Update () 
-	{Debug.Log(Durability+":"+humidity_num);
+	{
 		if(Input.GetKeyDown("a")){
 			if(stop.activeSelf==false){
 				stopp=true;
